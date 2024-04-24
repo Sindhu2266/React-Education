@@ -1,0 +1,131 @@
+.footer {
+    width: 100%;
+
+    background-color: #212121;
+    color: rgb(240, 245, 255);
+    display: grid;
+    place-content: center;
+  }
+   .bg{
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #212121;
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .footer .h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+
+  }
+  .footer-container{
+    width: 100%;
+    background-color: rgb(126, 125, 125);
+    padding: 25px;
+    height: auto;
+    margin-bottom: 0;
+    margin: 0;
+   
+  }
+  .footer-sec{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+   .pp{
+margin-left: 20px;
+margin-right: 20px;
+  }
+  .pl{
+    padding-left: 15px;
+  }
+ .textaline{
+text-align: justify;
+  }
+  .services{
+    
+    padding-left: 30px;
+    align-items: left;
+  }
+  ul{
+    margin-left: 0;
+    padding-left: 0;
+    align-items: left;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  ul li{
+    list-style: none;
+    line-height: 3rem;
+    
+  }
+  .displayicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .icons{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+  }
+  .youtube{
+color: rgb(48, 48, 48);
+text-decoration: none;
+  }
+  
+  
+  
+  .youtube:hover{
+    color: rgb(237, 39, 39);
+  }
+  .twitter{
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+  }
+  .twitter:hover{
+    color: rgb(4, 144, 195);
+  }
+  .instagram{
+    color: rgb(48, 48, 48);
+  }
+  .instagram:hover{
+    color: rgb(192, 7, 115);
+  }
+  .linkedin{
+    color: rgb(48, 48, 48);
+  }
+  .linkedin:hover{
+    color: rgb(6, 107, 208);
+  }
+ 
+  
+  .subsinput{
+    min-width: 150px;
+    border: none;
+
+  }
+
+  
+  
+  .subsbutton{
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    border: none;
+    
+    
+    background-color: rgb(48, 48, 48);
+  }

@@ -1,0 +1,65 @@
+ const [formData, setFormData] = useState({
+    username: '',
+    email: '',
+    msg:'',
+  })
+  const [errors, setErrors] = useState({})
+
+  const handleChange = (e) => {
+    const {name, value} = e.target;
+    setFormData({
+        ...formData, [name] : value
+    })
+  }
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    const validationErrors = {}
+    if(!formData.username.trim()) {
+        validationErrors.username = " * username is required"
+    }
+    if(!formData.email.trim()) {
+      validationErrors.email = " * email is required"
+  }
+  if(!formData.msg.trim()) {
+    validationErrors.msg = " * message is required"
+}
+
+setErrors(validationErrors)
+
+if(Object.keys(validationErrors).length === 0) {
+  <Alert variant="Success">Request sent Successfully</Alert>
+  alert("Form Submitted successfully")
+}
+  }
+
+
+
+
+
+  <Form onSubmit={handleSubmit}>
+     
+      <Form.Control 
+           type="text"
+          name="username"
+          placeholder='username'  
+          autoComplete='off'  
+          onChange={handleChange}   />
+          {errors.username && <span className='erred'>{errors.username}</span>}  
+      <br></br>
+      
+      <Form.Control type="email"
+          name="email"
+          placeholder='example@gmail.com'
+          autoComplete='off'
+          onChange={handleChange}  />
+           {errors.email && <span className='erred'>{errors.email}</span>}  
+       <br></br>
+       <Form.Control as="textarea" rows={3} type="text"
+          name="msg"
+          placeholder='Message'
+          autoComplete='off'
+          onChange={handleChange}  />
+           {errors.msg && <span className='erred'>{errors.msg}</span>}  
+       <br></br>
+      <Button type="submit" variant="success">Submit</Button>
+    </Form>

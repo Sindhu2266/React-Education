@@ -1,0 +1,95 @@
+footer {
+    width: 100%;
+    padding: 0.25em;
+    background-color: mediumblue;
+    color: aliceblue;
+    display: grid;
+    place-content: center;
+  }
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+
+  }
+  .footer-container{
+    width: 100%;
+    background-color: rgb(148, 151, 145);
+    padding: 25px;
+    height: auto;
+    margin-bottom: 0;
+    margin: 0;
+  }
+  
+  .services{
+    padding-left: 20px;
+    align-items: center;
+  }
+  ul{
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  ul li{
+    list-style: none;
+    line-height: 3rem;
+    
+  }
+  .displayicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .icons{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+  }
+  .youtube{
+color: rgb(48, 48, 48);
+text-decoration: none;
+  }
+  
+  
+  
+  .youtube:hover{
+    color: rgb(237, 39, 39);
+  }
+  .twitter{
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+  }
+  .twitter:hover{
+    color: rgb(4, 144, 195);
+  }
+  .instagram{
+    color: rgb(48, 48, 48);
+  }
+  .instagram:hover{
+    color: rgb(192, 7, 115);
+  }
+  .linkedin{
+    color: rgb(48, 48, 48);
+  }
+  .linkedin:hover{
+    color: rgb(6, 107, 208);
+  }
+ 
+  
+  .subsinput{
+    width: 200px;
+  }
+  .subsbutton{
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    border: none;
+    
+    
+    background-color: rgb(48, 48, 48);
+  }

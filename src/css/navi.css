@@ -1,0 +1,96 @@
+.logoname{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    font-size: 30px;
+    font-weight: bold;
+padding-right: 25px;
+color: green;
+}
+.erred{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8rem;
+	color: red;
+}
+.popp{
+  background-color: rgb(149, 162, 162);
+}
+.popphed{
+  background-color: #198754;
+}
+
+        .navbar-nav { 
+            margin-left: auto; 
+        } 
+     
+.navbar-expand-lg .navbar-collapse{
+    margin-left: 5%;
+}
+
+.yellowban{
+   /* background-color: rgba(248, 248, 0, 0.853);*/
+   background-color: white;
+}
+.navii{
+font-size: 18px;
+padding-left: 10px;
+padding-right: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.emaill{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+
+}
+.topp{
+    display: flex;
+    color: white;
+    background-color: #198754;
+   
+    
+    padding-top: 10px;
+}
+.Icons{
+    display: flex;
+  }
+ 
+  .Icons1{
+    display: flex;
+margin-right: 25px;
+    width: 30px;
+    height: 30px;
+}
+  .faface{
+    width: 40px;
+    height: 40px;
+  }
+  .faface :hover{
+    background-color: white;
+  }
+  .faface a{
+    background-color: antiquewhite;
+  }
+ 
+
+  .enqtitle{
+   
+    
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .enq{
+    color: green;
+    font-size: 11px;
+    padding: 10px;
+  }
+  .enqerr{
+    color: red;
+    font-size: 11px;
+    
+    
+  }
+  
+  

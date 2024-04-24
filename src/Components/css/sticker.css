@@ -1,0 +1,7 @@
+.ticker{display: flex;flex-wrap: wrap;width: 80%;height: 40px;margin: 0 auto; background-color: #d1b834;}
+.news{width: 100%;padding: 0 2%}
+.title{width: 20%;text-align: center;position: relative}
+.title:after{position: absolute;content: "";}
+.title h5{font-size: 14px;margin: 8% 0}
+.news marquee{font-size: 20px;margin-top: 12px; font-family:Arial, Helvetica, sans-serif;font-weight: 600; color: rgba(192, 3, 3, 0.728);}
+.news-content p{margin-right: 41px;display: inline}

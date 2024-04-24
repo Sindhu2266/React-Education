@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Convergence&display=swap');
+.logoname{
+    /*font-family:Georgia, 'Times New Roman', Times, serif;*/
+    font-family: "Convergence", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    width: 300px;
+    font-size: 40px;
+    font-weight: bold;
+padding-right: 25px;
+color: green;
+}
+
+
+.navbar-expand-lg .navbar-collapse{
+    margin-left: 5%;
+}
+
+.yellowban{
+   background-color: #d1b834;
+   /*background-color: white;*/
+}
+.navii{
+font-size: 18px;
+padding-left: 10px;
+padding-right: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.emaill{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.emaill a{
+  color: white;
+  text-decoration: none;
+}
+.emaill a:hover{
+  color: rgba(236, 244, 13, 0.835);
+  text-decoration: none;
+}
+
+
+.phno{
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.phno a{
+  color: white;
+  text-decoration: none;
+}
+.phno a:hover{
+  color: rgba(236, 244, 13, 0.835);
+  text-decoration: none;
+}
+.topp{
+  min-height: 50px;
+    display: flex;
+    color: white;
+    background-color: #198754;
+   
+    
+    padding-top: 10px;
+}
+.Icons{
+    display: flex;
+  }
+ 
+  .Icons1{
+    display: flex;
+margin-right: 25px;
+    width: 30px;
+    height: 30px;
+}
+  .faface{
+    width: 40px;
+    height: 40px;
+  }
+  .faface :hover{
+    background-color: white;
+  }
+  .faface a{
+    background-color: antiquewhite;
+  }
+ 
+
